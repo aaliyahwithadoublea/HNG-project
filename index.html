@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tech Goals</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>My Tech Goals for the Next 2 Years</h1>
+    </header>
+    <main>
+        <section id="about-me">
+            <h2>About Me</h2>
+            <!-- Display Slack Display Name -->
+            <p data-testid="slackDisplayName">Aaliyah Momodu</p>
+            <!-- Display Slack Profile Picture with natural dimensions -->
+            <img data-testid="slackProfilePicture" src="profile.jpg" alt="Slack Profile Picture" width="200" height="200" class="profile">
+            <!-- Display Slack Email -->
+            <p data-testid="slackEmail">john.doe@example.com</p>
+        </section>
+        <section id="goals">
+            <h2>Goals</h2>
+            <!-- List of Tech Goals -->
+            <ul>
+                <li>Become proficient in ReactJS and advanced frontend technologies.</li>
+                <li>Contribute to open-source projects and collaborate with the developer community.</li>
+                <li>Build and deploy several applications to enhance my portfolio.</li>
+            </ul>
+        </section>
+        <section id="time-date">
+            <h2>Current Time and Date</h2>
+            <!-- Display current time in UTC -->
+            <p data-testid="currentTimeUTC"></p>
+            <!-- Display current day of the week -->
+            <p data-testid="currentDay"></p>
+        </section>
+        <section id="useful-links">
+            <h2>Useful Links</h2>
+            <!-- Links to specified websites with data-testid attributes -->
+            <a data-testid="hngLink" href="https://hng.tech/learn">HNG Learn</a>
+            <a data-testid="keywordLink" href="https://keyword.dog">Keyword Dog</a>
+            <a data-testid="scrapeanywebLink" href="https://scrapeanyweb.site">Scrape Any Web</a>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

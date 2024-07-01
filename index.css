@@ -1,0 +1,92 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set font and box-sizing */
+body {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Style the main content area */
+main {
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Style profile image */
+img {
+    border-radius: 50%;
+}
+
+/* Style for links */
+a {
+    display: block;
+    margin-bottom: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design for different screen sizes */
+
+/* Mobile Devices */
+@media (max-width: 600px) {
+    main {
+        width: 100%;
+        padding: 10px;
+    }
+    header {
+        padding: 10px;
+    }
+    img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    main {
+        width: 95%;
+    }
+    img {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+/* Desktops */
+@media (min-width: 1025px) {
+    main {
+        width: 80%;
+    }
+    img {
+        width: 200px;
+        height: 200px;
+    }
+}
