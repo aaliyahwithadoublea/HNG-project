@@ -82,15 +82,6 @@ h2::after {
     bottom: -5px;
 }
 
-/* Style profile image */
-img {
-    border-radius: 50%;
-    transition: transform 0.3s ease;
-}
-
-img:hover {
-    transform: scale(1.1);
-}
 
 /* Style for links */
 a {
@@ -146,10 +137,7 @@ li::before {
     header {
         padding: 10px;
     }
-    img {
-        width: 150px;
-        height: 150px;
-    }
+    
 }
 
 /* Tablets */
@@ -157,10 +145,7 @@ li::before {
     main {
         width: 95%;
     }
-    img {
-        width: 180px;
-        height: 180px;
-    }
+   
 }
 
 /* Desktops */
@@ -168,8 +153,5 @@ li::before {
     main {
         width: 80%;
     }
-    img {
-        width: 200px;
-        height: 200px;
-    }
+   
 }
